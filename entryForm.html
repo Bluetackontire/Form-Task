@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form Task</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Exam Entry Form</h1>
+  
+  <form name="ExamEntered" method="post" action="submit.html">
+    
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+    
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="15" max="18" required>
+      <br>
+      
+      <label for="studentEmail">Student Email</label>
+      <input type="email" id="studentEmail" name="studentEmail" required>
+      <br>
+      
+      <label for="examNum">Examination Number</label>
+      <input type="number" id="examNum" name="examNum" min="0000" max="9999">
+      <br>
+    </div>
+
+    <div>
+      <input type="radio" id="examLvl" name="examLvl" required value="GCSE">
+      <label1 for="GCSE">GCSE</label1><br>
+      <label for="examLvl">Exam Level</label>
+      <input type="radio" id="GCSE" name="examLvl" required value="AS">
+      <label1 for="AS">AS</label1><br>
+      <input type="radio" id="AS" name="examLvl" required value="A2">
+      <label1 for="A2">A2</label1>
+      <br>      
+      
+      <input type="checkbox" id="preference" name="preference" value="write">
+      <label1 for="write">write</label1><br>
+      <label for="name">Enter your preference</label>
+      <input type="checkbox" id="preference" name="preference" value="checkbox">
+      <label1 for="type">type</label1><br>
+      <input type="checkbox" id="preference" name="preference" value="verbal">
+      <label1 for="verbal">verbal</label1>
+      <br>
+    </div>
+
+    <div>
+      <label for="name">Anything we need to know</label>
+      <input type="textarea" id="additional" name="additional" style="height:50px">
+      <br>
+    </div>
+    
+    <br>
+    <input type="submit" value="submit" style="position: relative; top: 25px;">
+    <input type="reset" value="reset" style="position: relative; left: 137px; top: 25px;">
+  </form> 
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--https://www.w3schools.com/html/default.asp-->
+<!--https://classroom.google.com/c/NjIxODI3NjcwNzA1/a/NjY1OTg2Njc2MDcw/details-->
